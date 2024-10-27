@@ -6,13 +6,13 @@ I'll provide an outline for a Python-based tool using Google Speech-to-Text API 
 
 
 
-Step 1: Install Required Packages
+**Step 1: Install Required Packages**
 Install ffmpeg to extract audio from video files.
 Use pydub for additional audio processing.
 Use google-cloud-speech for transcription.
 
 
-Step 2: Set Up Google Cloud Speech-to-Text
+**Step 2: Set Up Google Cloud Speech-to-Text**
 Sign up on Google Cloud Platform and create a project.
 Enable the Google Cloud Speech-to-Text API.
 Create a service account key and download the JSON key file.
@@ -24,7 +24,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="path/to/your-service-account-file.json"
 
 
 
-Explanation of the Code
+**Explanation of the Code**
 extract_audio: This function extracts the audio from a video file and converts it to a .wav format.
 transcribe_audio: This function sends the audio file to Google’s API and retrieves the transcription in Bengali.
 process_videos: This function iterates over each video file, processes it, and stores the transcription.
